@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "claude-test"
+version = "0.1.0"
+dependencies = [
+    "requests",
+    "pytest",
+]
